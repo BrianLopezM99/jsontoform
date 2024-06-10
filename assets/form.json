@@ -1,0 +1,14 @@
+[
+  { "field_name": "f1", "widget": "dropdown", "valid_values": ["A", "B"] },
+  { "field_name": "f2", "widget": "textfield", "visible": "f1=='A'" },
+  { "field_name": "f3", "widget": "textfield", "visible": "f1=='A'" },
+  { "field_name": "f4", "widget": "textfield", "visible": "f1=='A'" },
+  { "field_name": "f5", "widget": "textfield", "visible": "f1=='B'" },
+  { "field_name": "f6", "widget": "textfield", "visible": "f1=='B'" },
+  { "field_name": "f7", "widget": "button", "text": "Submit", "visible": "f1=='A'" },
+  { "field_name": "f8", "widget": "static_text", "text": "This is static text" },
+  { "field_name": "f9", "widget": "checkbox", "text": "Checkbox" },
+  { "field_name": "f10", "widget": "radio", "text": "Option 1", "group": "radio_group" },
+  { "field_name": "f11", "widget": "radio", "text": "Option 2", "group": "radio_group" },
+  { "field_name": "f11", "widget": "testxd", "text": "Option 2", "group": "radio_group" }
+]
