@@ -39,6 +39,7 @@ Here's an example of how the JSON file structure should be:
   { "field_name": "email", "widget": "textfield", "visible": null },
   { "field_name": "age", "widget": "textfield", "visible": "name=='John'" }
 ]
+```
 
 This JSON defines a form with fields for name, email, and age. The visibility of the age field is conditioned on the value of the name field being "John".
 
